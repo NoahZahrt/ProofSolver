@@ -1,0 +1,4 @@
+(library
+ (name procaml))
+(ocamllex lexer)
+(menhir (modules parser))
